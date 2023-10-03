@@ -213,6 +213,10 @@ P{
     color: #000000;
 }
 
+.information img{
+    margin-left: 15rem;
+}
+
 .information p{
     font-size: 15px;
     color: #5F5A5A;
