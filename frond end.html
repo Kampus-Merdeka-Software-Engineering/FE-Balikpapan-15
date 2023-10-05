@@ -4,23 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/frond end.css">
     <link rel="icon" href="assets/favicon.png" type="image/png">
-    <link rel="stylesheet" href="css/frond end.css"/>
     <title>Edu Class</title>
 </head>
 <body>
-    <!-- bagian navigasi -->
-    <nav class="navbar">
+     <!-- bagian navigasi -->
+     <nav class="navbar">
         <div class="navbar-container">
-            <div class="logo">
-                <img src="assets/favicon.png">
-                <h1 class="navbar-logo">Edu Class</h1>
-            </div>
+            <h1 class="navbar-logo">Edu Class</h1>
             <ul class="navbar-nav">
-                <li class="nav-menu"><a href="#home-section" class="nav-link">Beranda</a></li>
-                <li class="nav-menu"><a href="#about-section" class="nav-link">Tentang</a></li>
-                <li class="nav-menu"><a href="#courses-section" class="nav-link">Kursus</a></li>
-                <li class="nav-menu"><a href="#team-section" class="nav-link">Tim Kami</a></li>
+                <li class="nav-menu"><a href="index.html#home-section" class="nav-link">Beranda</a></li>
+                <li class="nav-menu"><a href="index.html#about-section" class="nav-link">Tentang</a></li>
+                <li class="nav-menu"><a href="index.html#courses-section" class="nav-link">Kursus</a></li>
+                <li class="nav-menu"><a href="index.html#team-section" class="nav-link">Tim Kami</a></li>
             </ul>
         </div>
     </nav>
@@ -34,54 +31,163 @@
                 <span></span>
             </div>
             <div class="menu-link">
-                <li class="nav-menu"><a href="#home-section" onclick="toggleMenu()" class="nav-link">Beranda</a></li>
-                <li class="nav-menu"><a href="#about-section" onclick="toggleMenu()" class="nav-link">Tentang</a></li>
-                <li class="nav-menu"><a href="#courses-section" onclick="toggleMenu()" class="nav-link">Kursus</a></li>
-                <li class="nav-menu"><a href="#team-section" onclick="toggleMenu()" class="nav-link">Tim Kami</a></li>
+                <li class="nav-menu"><a href="index.html#home-section" onclick="toggleMenu()" class="nav-link">Beranda</a></li>
+                <li class="nav-menu"><a href="index.html#about-section" onclick="toggleMenu()" class="nav-link">Tentang</a></li>
+                <li class="nav-menu"><a href="index.html#courses-section" onclick="toggleMenu()" class="nav-link">Kursus</a></li>
+                <li class="nav-menu"><a href="index.html#team-section" onclick="toggleMenu()" class="nav-link">Tim Kami</a></li>
             </div>
         </div>
     </div>
-
-    <!--informasi frond end-->
-    <div class="information">
-        <h2>Menjadi Frontend Developer untuk pemula</h2>
-        <img src="assets/front end developer.avif" alt="">
-        <p>Front end merupakan salah satu bagian dari website yang menampilkan tampilan untuk para pengguna. pada bagian ini
-            dibuat dengan menggunakan 3 bahasa pemrograman web yaitu HyperText Markup Language (HTTP), 
-            Cascading Style Sheets (CSS), dan JavaScript.</p>
-    </div>
-    <div class="content">
-        <div class="content-1">
-            <h3>Kemampuan yang akan saya raih</h3>
-            <p>1. Mampu membuat Frontend <br>
-               2. Mampu mengambil data dari API <br>
-               3. Paham konsep Dapat mengupload ke server <br>
-               4. Dapat mengupload ke server</p>
+    <!--konten utama -->
+    <div class="main-container">
+        <div class="main-content">
+            <h1>Menjadi Frond End Developer untuk Pemula</h1>
+            <p>Frond end merupakan salah satu bagian dari website yang menampilkan tampilan untuk para pengguna. Pada bagian ini dibuat dengan menggunakan 3 bahasa pemrograman web yaitu HyperText Markup Language (HTTP), Cascading Style Sheets (CSS), dan JavaScript.<br>
+               Tujuan dari frond end adalah untuk memastikan bahwa aplikasi/website dapat tampil dan berguna dengan sebagaimana mestinya. 
+            </p>
+            <div class="content">
+                <div class="content-1">
+                    <h3>Kemampuan yang akan saya raih</h3>
+                    <p>1. Mampu membuat Frontend <br>
+                       2. Mampu mengambil data dari API <br>
+                       3. Paham konsep Dapat mengupload ke server <br>
+                       4. Dapat mengupload ke server</p>
+                </div>
+                <div class="content-2">
+                    <h3>Persyaratan</h3>
+                    <p>1. Menggunakan laptop yang terkoneksi ke internet <br>
+                       2. Menginstall Visual Studio Code <br>
+                       3. Mampu mengakses Google Chrome <br>
+                       4. Internet 4G yang memadai </p>
+                </div>
+            </div>
+            <h1>Kurikulum</h1>
+            <div class="kurikulum">
+                <ol class="kurikulum-1">
+                    <li><a href="#content1">Pengenalan apa itu Frond End Developer</a></li>
+                    <li><a href="#content2">HTML Dasar</a></li>
+                    <li><a href="#content3">HTML Form</a></li>
+                    <li><a href="#content4">CSS Dasar</a></li>
+                    <li><a href="#content5">JavaScript Dasar</a></li>
+                    <li><a href="#content6">JavaScript Modules</a></li>
+                    <li><a href="#content7">JavaScript DOM</a></li>
+                    <li><a href="#content8">JavaScript Async</a></li>
+                    <li><a href="#content9">Version Control System (GIT)</a></li>
+                    <li><a href="#content10">Belajar Desain di Figma</a></li>
+                    <li><a href="#content11">Cara Slicing Desain Figma Ke Codingan</a></li>
+                    <li><a href="#content12">Contoh Membuat Website Portofolio Sederhana</a></li>
+                </ol>
+            </div>
+            <!--video yang ditampilkan beserta deskripsinya -->                
+            <div class="video-content">
+                <div class="content">
+                    <h1 id="content1">Pengenalan apa itu Frond End Developer</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe"src="https://www.youtube.com/embed/qzMPvbL3GRQ?si=ycYv2jZ9GJVFDCr-"></iframe>
+                    </div>
+                    <p>Frond end development adalah proses pembuatan tampilan dan interaksi pengguna pada sebuah situs web atau aplikasi. Tugasnya melibatkan pengkodean elemen-elemen seperti HTML, CSS JavaScript untuk menciptakan antarmuka yang responsif, menarik, dan fungsional. 
+                        Frond end development bertanggung jawab memastikan pengalaman pengguna yang baik dengan merancang dan mengimplementasikan desai yang sesuai, serta memastikan kompatibilitas lintas perangkat dan browser.
+                    </p>
+                </div>
+                <div class="content">
+                    <h1 id="content2">HTML Dasar</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe"src="https://www.youtube.com/embed/hMDJyb7VkYw?si=_KLEEaDtLRxN4-0j"></iframe>
+                    </div>
+                    <p>HTML singkatan dari HyperText Markup Language, adalah bahasa markup standar yang digunakan untuk membuat dan merancang halaman web. HTML memungkinkan pembuat situs web untuk menentukan struktur dasar sebuah dokumen dengan menggunakan elemen-elemen markup. Elemen-elemen ini disusun dalam bentuk tag (tanda) yang ditempatkan di dalam dokumen HTML untuk memberi petunjuk pada browser web tentang bagaimana menampilkan konten.
+                    </p>
+                </div>
+                <div class="content">
+                    <h1 id="content3">HTML Form</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe"src="https://www.youtube.com/embed/mELDK1yS8iU?si=FR8tQC6HN9sY-mbs"></iframe>
+                    </div>
+                    <p>Form adalah elemen HTML yang berfungsi untuk meminta informasi dari user misalnya form login untuk meminta informasi username dan password dari user untuk proses login, form pendaftaran untuk meminta informasi detail tentang user agar bisa mendaftar, form input data untuk disimpan di database dan lain sebagainya.
+                    </p>
+                </div>
+                <div class="content">
+                    <h1 id="content4">CSS Dasar</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe"src="https://www.youtube.com/embed/tBD8XlgXlus?si=t0juRcdAR77SxkK5"></iframe>
+                    </div>
+                    <p>CSS singkatan dari Cascading Style Sheets, adalah bahasa gaya yang digunakan untuk mengontrol tata letak dan penampilan elemen-elemen HTML di halaman web. HTML bertanggung jawab untuk struktur dan konten dasar halaman, sedangkan CSS memberikan gaya dan tata letak visual untuk meningkatkan estetika dan pengalaman pengguna.
+                        Beberapa fungsi utama CSS melibatkan pemberian warna, pengaturan font, mengatur posisi elemen, dan menyesuaikan ukuran elemen. Dengan menggunakan CSS, pengembang web dapat dengan mudah mengubah penampilan situs web secara konsisten di seluruh halaman web atau mengkustomisasi penampilan elemen-elemen tertentu.
+                    </p>
+                </div>
+                <div class="content">
+                    <h1 id="content5">JavaScript Dasar</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe"src="https://www.youtube.com/embed/SDROba_M42g?si=Tu6tu7dmEf7GmB6P"></iframe>
+                    </div>
+                    <p>JavaScript adalah bahasa pemrograman tingkat tinggi yang bersifat interpretatif dan berorientasi objek. JavaScript awalnya dikembangkan untuk memberikan kemampuan interaktif pada halaman web di sisi klien (browser). Seiring waktu, penggunaan JavaScript telah berkembang, dan sekarang juga digunakan di berbagai konteks pengembangan perangkat lunak, termasuk pengembangan server-side menggunakan platform seperti Node.js.
+                    </p>
+                </div>
+                <div class="content">
+                    <h1 id="content6">JavaScript Modules</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe"src="https://www.youtube.com/embed/RjdKpxhAtI4?si=PuyAR3kAPXdXtPtN"></iframe>
+                    </div>
+                    <p>Module adalah file Javascript yang di dalamnya terdapat value dari objects, functions, dan variables. Kemudian file tersebut dapat diexport dan diimport oleh file lain. Yang mana file lain yang mengimportnya dapat menggunakan values yang ada di file tersebut.
+                    </p>
+                </div>
+                <div class="content">
+                    <h1 id="content7">JavaScript DOM</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe"src="https://www.youtube.com/embed/vaPutSH0sYg?si=SKjIRkgTRuuXG1gE"></iframe>
+                    </div>
+                    <p>DOM singkatan dari Document Object Model merupakan salah satu bahasa pemrograman. DOM merupakan objek model standar bagi XML dan HTML yang memiliki sifat platform independent. Saat membuka sebuah halaman web pada browser, maka file HTML dari web akan dimuat serta ditampilkan pada layar perangkat.
+                    </p>
+                </div>
+                <div class="content">
+                    <h1 id="content8">JavaScript Async</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe"src="https://www.youtube.com/embed/qwL6ISjbaaE?si=C8oSwABnD-CPryUi"></iframe>
+                    </div>
+                    <p>Async ( Asynchronous Function) adalah sebuah function yang bekerja secara asynchronous (melalui event loop), yang menghasilkan (implisit) promise sebagai return value-nya, tapi cara penulisan code-nya menggunakan penulisan yang synchronous (function biasa). 
+                    </p>
+                </div>
+                <div class="content">
+                    <h1 id="content9">Version Control System (GIT)</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe"src="https://www.youtube.com/embed/fQbTeNX1mvM?si=p5BoR4Tz0BU9PFaC"></iframe>
+                    </div>
+                    <p>Git adalah sistem kontrol versi distribusi yang dirancang untuk melacak perubahan dalam kode sumber selama pengembangan perangkat lunak. Git dikembangkan oleh Linus Torvalds pada tahun 2005 dan telah menjadi salah satu alat pengelolaan kode sumber terpopuler di dunia pengembangan perangkat lunak.
+                    </p>
+                </div>
+                <div class="content">
+                    <h1 id="content10">Belajar Desain di Figma</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe"src="https://www.youtube.com/embed/qk3R3mYiuPA?si=ztCSr1DlHGOrnKoi"></iframe>
+                    </div>
+                    <p>Figma adalah salah satu tools atau aplikasi desain yang dapat digunakan pada windows dan Mac OS untuk membuat prototype aplikasi serta berbagai desain lainnya. Aplikasi ini berbasis vektor, sehingga memang sangat cocok digunakan untuk membuat user interface aplikasi atau website.
+                    </p>
+                </div>
+                <div class="content">
+                    <h1 id="content11">Cara Slicing Desain Figma Ke Codingan</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/4ghGLoxLP9o?si=IG86B09D8jPGUgEL"></iframe>
+                    </div>
+                    <p>Slicing desain Figma mengacu pada proses mempersiapkan desain atau elemen desain untuk implementasi atau pengembangan lebih lanjut di dalam kode. Proses slicing ini melibatkan ekstraksi elemen desain tertentu dari file desain Figma dan menyimpannya dalam format yang dapat digunakan oleh pengembang, seperti gambar PNG, SVG, atau file lainnya.
+                    </p>
+                </div>
+                <div class="content">
+                    <h1 id="content12">Contoh Membuat Website Portofolio Sederhana</h1>
+                    <div class="video">
+                        <iframe class="responsive-iframe"src="https://www.youtube.com/embed/lypsd9m8Lnw?si=QNz31NtEmIE7BgLG"></iframe>
+                    </div>
+                    <p>Sebuah website portofolio adalah situs web yang dirancang untuk menampilkan dan mempromosikan karya atau proyek seseorang. Portofolio ini biasanya digunakan oleh individu seperti desainer, pengembang web, fotografer, penulis, seniman, dan profesional kreatif lainnya untuk menunjukkan kemampuan, pencapaian, dan potensi mereka kepada calon klien, atasan, atau pengunjung lainnya.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="content-2">
-            <h3>Persyaratan</h3>
-            <p>1. Menggunakan laptop yang terkoneksi ke internet <br>
-               2. Menginstall Visual Studio Code <br>
-               3. Mampu mengakses Google Chrome <br>
-               4. Internet 4G yang memadai </p>
-        </div>
     </div>
-    <div class="kurikulum">
-        <h4>Kurikulum</h4>
-        <p>1. Mengenal apa itu Front End Development</p>
-        <p>2. HTML dan CSS</p>
-        <p>3. JavaScript </p>
-        <p>4. Framework dan Query</p>
-        <p>5. Layanan REST dan API</p>
-        <p>6. Desain mobile yang responsif</p>
-        <p>7. Content Management</p>
-        <p>8. Testing dan Debugging</p>
-    </div>
-    
-    <!--bagian footer copyright-->
-   <footer>
-    <p>Copyright &#169; 2023 Kelompok 15. All Rights Reserved.</p>
-    </footer>
-    <script src="js/script.js"></script>
+    <!--bagian footer-->
+    <footer>
+        <p>Copyright &#169; 2023 Kelompok 15. All Rights Reserved.</p>
+        </footer>
+        <a href="#" class="to-top">
+            <img src="assets/up-arrow.png" alt="" width="30px"  height="30px">
+        </a>
+        <script src="js/script.js"></script>
 </body>
 </html>
