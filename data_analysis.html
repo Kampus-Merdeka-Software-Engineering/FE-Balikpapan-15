@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/data_analysis.css">
+    <link rel="stylesheet" href="css/question.css">
     <link rel="icon" href="assets/favicon.png" type="image/png">
     <title>Edu Class</title>
 </head>
@@ -153,15 +154,48 @@
                     </p>
                 </div>
             </div>
+            <!-- quiz beserta soal-soalnya-->
+            <div class="quiz-question">
+                <h1>Latihan Soal</h1>
+                <!-- bagian button start-->
+                <div class="start-screen">
+                    <button id="start-button">Mulai Quiz</button>
+                </div>
+                <!-- Wadah untuk soal dan komponen-komponennya-->
+                <div id="wrapper">
+                    <div id="display-container">
+                        <div class="header">
+                            <div class="number-of-count">
+                                <span class="number-of-question"></span>
+                            </div>
+                            <div class="timer-div">
+                                <img src="assets/timer.png" />
+                                <span class="time-left"></span>
+                            </div>
+                        </div>
+                        <div id="container">
+                        <!-- pertanyaan dan jawaban akan ditampilkan disini -->
+                        </div>
+                        <div class="btn-container">
+                            <button id="next-button">Selanjutnya</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- bagian hasil dan tombol mulai ulang -->
+                <div class="score-container hide">
+                    <div id="user-score"></div>
+                    <button id="restart">Mulai Ulang</button>
+                </div>
+
+            </div>
         </div>
     </div>
     <!--bagian footer-->
     <footer>
         <p>Copyright &#169; 2023 Kelompok 15. All Rights Reserved.</p>
-        </footer>
-        <a href="#" class="to-top">
-            <img src="assets/up-arrow.png" alt="" width="30px"  height="30px">
-        </a>
-        <script src="js/script.js"></script>
+    </footer>
+    <a href="#" class="to-top"><img src="assets/up-arrow.png" alt="" width="30px"  height="30px"></a>
+    <script src="js/script.js"></script>
+    <script src="js/DataQuestion.js"></script>
 </body>
 </html>
