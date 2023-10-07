@@ -1,4 +1,4 @@
-/*----------general----------*/
+/*-----general-----*/
 
 html, body{
     margin: 0;
@@ -11,7 +11,6 @@ html, body{
     outline: none;    
     scroll-behavior: smooth;
 }
-
 
 h1{
     margin-top: 0;
@@ -30,12 +29,11 @@ P{
     border-radius: 20px;
   }
   
-  
 ::-webkit-scrollbar {
    width: 7px;  
   }
 
-/*----------navigation bar----------*/
+/*-----navigation bar-----*/
 
 .navbar{
     position: fixed;
@@ -86,10 +84,9 @@ P{
 }
 
 
-/*--------navbar hamburger--------------*/
+/*-----navbar hamburger-----*/
 .hamburger-navigation{
     display: none;
-    /*position: fixed;*/
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -179,7 +176,6 @@ P{
     transform: none;
 }
 
-
 @media screen and (max-width:1200px){
     .navbar{
         display: none;
@@ -190,9 +186,7 @@ P{
      }
 }
 
-
-
-/*main*/
+/*-----main-----*/
 
 .main-container{
     display: flex;
@@ -209,50 +203,9 @@ P{
     box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.30);
 }
 
-
-.kurikulum a{
-    color: black;
-
-}
-
-.kurikulum a:hover{
-    color:#6B8EE7;
-}
-
-.content{
-    position:relative; 
-    display:block; 
-    width: 100%
-}
-
-.video{
-    padding-bottom:56.25%; 
-    position:relative; 
-    display:block; 
-    width: 100%
-}
-
-
-.content iframe{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-}
-
 .main-content p{
     font-size: 16px;
     color: black;
-}
-
-.kurikulum a{
-    text-decoration: none;
-}
-
-.content iframe{
-    text-align: center;
 }
 
 .quiz-question h1{
@@ -263,22 +216,40 @@ P{
     padding-bottom: 120px;
 }
 
+#video-list-backend li{
+    display: inline-block;
+    position:relative; 
+    display:block; 
+    width: 100%  
+}
+
+#video-list-backend iframe{
+    padding-bottom:none; 
+    position:relative; 
+    display:block; 
+    width: 100%;
+}
+
+#video-list-backend{
+    margin: 0;
+    padding-left: 0;
+
+}
+
 @media (max-width: 1200px) {
     .main-container{
       padding: 150px 0;
       padding-bottom: 200px;
       
-    }
-   
+    } 
   }
 
-
-/*----------footer----------*/
+/*-----footer-----*/
 footer{
     height: 5vh; 
   }
   
-footer p {
+footer p{
     text-align: center;
     margin-top: 20px;
     font-size: 16px;
@@ -286,7 +257,7 @@ footer p {
 
   /*button to top*/
 
-  .to-top {
+  .to-top{
     background: #BECBEEA1;
     position: fixed;
     bottom: 16px;
@@ -311,3 +282,4 @@ footer p {
     pointer-events: auto;
     opacity:1;
   }
+
