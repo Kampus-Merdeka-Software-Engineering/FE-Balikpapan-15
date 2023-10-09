@@ -198,7 +198,11 @@ P{
     }
 
     .hamburger-navigation{
-        display: flex;   
+        display: flex;  
+     }
+
+     .navbar-logo{
+        position: fixed;
      }
 }
 

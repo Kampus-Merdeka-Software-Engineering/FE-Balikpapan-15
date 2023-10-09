@@ -33,6 +33,7 @@ button {
 
 #wrapper {
 	position: relative;
+	position: block;
 	transform: translateX(-55%);
     margin-top: 20px;
 	top: 20%;
